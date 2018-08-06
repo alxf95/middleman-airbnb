@@ -16,6 +16,9 @@
 //   }
 // }
 
+#home {
+  background-color: #FAFAFF !important;
+}
 
 .banner {
   height: 100vh;
@@ -56,11 +59,15 @@
 }
 
 .home-flats {
-  padding: 100px 0;
+  padding: 60px;
+  background-color: #fefefe;
+  width: 100%;
 }
 
 #recent-flats {
   font-family: "Lato", sans-serif;
   padding-bottom: 10px;
-  font-size: 35px;
+  font-size: 30px;
 }
+
+
