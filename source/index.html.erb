@@ -3,13 +3,59 @@ title: Le Wagon - Middleman
 ---
 
 <div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+  <div class="banner flexbox">
+    <div class="banner-content flexbox_two">
+      <h1>WELCOME HOME</h1>
+      <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+      <form action="#" class="form-inline my_form">
+        <input type="text" class="form-control input-lg" placeholder="Where?">
+        <input type="text" class="form-control input-lg" placeholder="When?">
+        <select name="" id="" class="form-control input-lg">
+          <option value="1">1 guest</option>
+          <option value="2">2 guests</option>
+          <option value="3">3 guests</option>
+        </select>
+        <input type="submit" class="btn btn-primary btn-lg" value="Search">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container home-flats">
+  <h2 class="text-center" id="recent-flats">Recent flats</h2>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/paris');">
+        <div class="card-category">Paris, France</div>
+        <div class="card-description">
+          <h2>Sebastien's home</h2>
+          <p>Charming room in Montmartre</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/ssaunier">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/tokyo');">
+        <div class="card-category">Tokyo, Japan</div>
+        <div class="card-description">
+          <h2>Boris' home</h2>
+          <p>Small flat in Tokyo</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/papillard">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/london');">
+        <div class="card-category">London, UK</div>
+        <div class="card-description">
+          <h2>Romain's home</h2>
+          <p>Nice flat in Picadilly</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
   </div>
 </div>
